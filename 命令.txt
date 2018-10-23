@@ -95,3 +95,7 @@ git remote –v 查看远程库的详细信息
 git push origin master Git会把master分支推送到远程库对应的远程分支上
 
 git checkout -f  碰到的问题
+
+
+可以通过如下命令进行代码合并【注：pull=fetch+merge]
+git pull --rebase origin master
